@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-hgwp2FJgbMJjZn3vq3jKz7QChSbWmuV9qGq3MB4KjMV4a4+BZm26wjrGdTEkkF7sSQjK/rgt9s72i/ldT/W7ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>EX07</title>
+    <style>
+        .item{
+            display: inline-block;
+            padding: 50px;
+            width: 120px;
+        }
+        .img{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">20120600</h1>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">Group-08</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="ex7-item-list">
+            <div class="item">
+                <img class="img" src="data:image/png;base64,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" alt="cf-ic">
+                <h2>Coffee</h2>
+                <p id="details">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant.</p>
+                <button class="ex7-remove-item">Remove</button>
+            </div>
+            <div class="item">
+                <img class ="img" src="data:image/png;base64,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" alt="drinks">
+                <h2>Drinks</h2>
+                <p id="details">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant.</p>
+                <button class="ex7-remove-item">Remove</button>
+            </div>
+            <div class="item">
+                <img src="data:image/png;base64,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" alt="" class="img">
+                <h2>Cakes</h2>
+                <p id="details">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant.</p>
+                <button class="ex7-remove-item">Remove</button></div>
+            <div class="item">
+                <img class="img" src="https://cdn-icons-png.flaticon.com/512/2995/2995954.png" alt="" srcset="">
+                <h2>Icecream</h2>
+                <p id="details">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant.</p>
+                <button class="ex7-remove-item">Remove</button>
+            </div>
+        </div>
+    </main>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="js/ex07.js"></script>
+</body>
+
+</html>
